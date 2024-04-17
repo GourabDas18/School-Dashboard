@@ -3,7 +3,7 @@
       {
         "student_id": 101,
         "name": "John Doe",
-        "profile_image": "http://localhost:5173/public/student/student1.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student1.png",
         "blood_group": "AB+",
         "age": 20,
         "address": "123 Main Street, Cityville, State",
@@ -40,7 +40,7 @@
       {
         "student_id": 102,
         "name": "Alice Smith",
-        "profile_image": "http://localhost:5173/public/student/student2.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student2.png",
         "blood_group": "A-",
         "age": 21,
         "address": "456 Elm Street, Townsville, State",
@@ -77,7 +77,7 @@
       {
         "student_id": 103,
         "name": "Emily Johnson",
-        "profile_image": "http://localhost:5173/public/student/student3.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student3.png",
         "blood_group": "O+",
         "age": 22,
         "address": "789 Oak Avenue, Villagetown, State",
@@ -114,7 +114,7 @@
       {
         "student_id": 104,
         "name": "Michael Brown",
-        "profile_image": "http://localhost:5173/public/student/student4.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student4.png",
         "blood_group": "B+",
         "age": 20,
         "address": "321 Pine Street, Hamletsville, State",
@@ -151,7 +151,7 @@
       {
         "student_id": 105,
         "name": "Sophia Williams",
-        "profile_image": "http://localhost:5173/public/student/student5.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student5.png",
         "blood_group": "AB-",
         "age": 21,
         "address": "567 Cedar Street, Hamletsville, State",
@@ -188,7 +188,7 @@
       {
         "student_id": 106,
         "name": "Jacob Miller",
-        "profile_image": "http://localhost:5173/public/student/student6.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student6.png",
         "blood_group": "O-",
         "age": 19,
         "address": "890 Elm Street, Villagetown, State",
@@ -227,7 +227,7 @@
       {
         "student_id": 107,
         "name": "Isabella Moore",
-        "profile_image": "http://localhost:5173/public/student/student7.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student7.png",
         "blood_group": "B-",
         "age": 22,
         "address": "234 Maple Street, Cityville, State",
@@ -264,7 +264,7 @@
       {
         "student_id": 108,
         "name": "Ethan Taylor",
-        "profile_image": "http://localhost:5173/public/student/student8.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student8.png",
         "blood_group": "A+",
         "age": 20,
         "address": "678 Oak Avenue, Townsville, State",
@@ -301,7 +301,7 @@
       {
         "student_id": 109,
         "name": "Mia Anderson",
-        "profile_image": "http://localhost:5173/public/student/student9.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student9.png",
         "blood_group": "AB+",
         "age": 21,
         "address": "123 Pine Street, Villagetown, State",
@@ -338,7 +338,7 @@
       {
         "student_id": 110, 
         "name": "Alexander Martinez",
-        "profile_image": "http://localhost:5173/public/student/student10.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student10.png",
         "blood_group": "O+",
         "age": 22,
         "address": "456 Cedar Street, Townsville, State",
@@ -377,7 +377,7 @@
       {
         "student_id": 111,
         "name": "Charlotte Garcia",
-        "profile_image": "http://localhost:5173/public/student/student4.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student4.png",
         "blood_group": "B-",
         "age": 20,
         "address": "789 Maple Street, Hamletsville, State",
@@ -414,7 +414,7 @@
       {
         "student_id": 112,
         "name": "James Rodriguez",
-        "profile_image": "http://localhost:5173/public/student/student8.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student8.png",
         "blood_group": "A-",
         "age": 21,
         "address": "890 Elm Street, Cityville, State",
@@ -451,7 +451,7 @@
       {
         "student_id": 113,
         "name": "Ella Hernandez",
-        "profile_image": "http://localhost:5173/public/student/student7.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student7.png",
         "blood_group": "O-",
         "age": 22,
         "address": "234 Pine Street, Villagetown, State",
@@ -488,7 +488,7 @@
       {
         "student_id": 114,
         "name": "William Martinez",
-        "profile_image": "http://localhost:5173/public/student/student9.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student9.png",
         "blood_group": "AB+",
         "age": 19,
         "address": "678 Oak Avenue, Cityville, State",
@@ -527,7 +527,7 @@
       {
         "student_id": 115,
         "name": "Olivia Garcia",
-        "profile_image": "http://localhost:5173/public/student/student2.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student2.png",
         "blood_group": "A+",
         "age": 20,
         "address": "456 Cedar Street, Hamletsville, State",
@@ -564,7 +564,7 @@
       {
         "student_id": 116,
         "name": "Logan Hernandez",
-        "profile_image": "http://localhost:5173/public/student/student6.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student6.png",
         "blood_group": "O-",
         "age": 21,
         "address": "123 Pine Street, Townsville, State",
@@ -601,7 +601,7 @@
       {
         "student_id": 117,
         "name": "Amelia Johnson",
-        "profile_image": "http://localhost:5173/public/student/student3.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student3.png",
         "blood_group": "AB+",
         "age": 22,
         "address": "345 Elm Street, Cityville, State",
@@ -638,7 +638,7 @@
       {
         "student_id": 118,
         "name": "Lucas Martinez",
-        "profile_image": "http://localhost:5173/public/student/student2.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student2.png",
         "blood_group": "B+",
         "age": 19,
         "address": "901 Oak Avenue, Villagetown, State",
@@ -675,7 +675,7 @@
       {
         "student_id": 119,
         "name": "Harper Brown",
-        "profile_image": "http://localhost:5173/public/student/student1.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student1.png",
         "blood_group": "O-",
         "age": 20,
         "address": "234 Maple Street, Townsville, State",
@@ -712,7 +712,7 @@
       {
         "student_id": 120,
         "name": "Evelyn Taylor",
-        "profile_image": "http://localhost:5173/public/student/student6.png",
+        "profile_image": "https://schooldashboardui.netlify.app/student/student6.png",
         "blood_group": "A-",
         "age": 21,
         "address": "567 Cedar Street, Cityville, State",

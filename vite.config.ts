@@ -7,6 +7,14 @@ export default defineConfig({
   plugins: [react(),richSvg()],
   server: {host: '0.0.0.0'},
   build :{
-    assetsDir: "src/Assets/Student/**/*"
-  }
+    rollupOptions : {
+      external: ["react", "react-router", "react-router-dom", "react-redux"],
+      output: {
+        globals: {
+          react: "React",
+        },
+      }
+    }
+  },
+  
 })
