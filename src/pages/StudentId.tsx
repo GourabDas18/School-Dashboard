@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import data from "../database/data.json";
 import { eachStudentAlldata } from './Students';
 import Menu from '../components/Menu';
-import attendance from "../img/attendance.png";
 import { AreaChart } from '../components/Aeachart';
 import { ScriptableContext } from 'chart.js/auto';
 

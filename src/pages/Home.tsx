@@ -1,7 +1,7 @@
 import Menu from "../components/Menu"
 import hand from "../img/waving-hand.png";
 import logo from "../img/logo.png";
-import { CourseContainer, lessondata } from "../components/widget";
+import { CourseContainer } from "../components/widget";
 import attendance from "../img/attendance.png";
 import { BarChart } from "../components/Barchart";
 import { useCallback, useEffect, useState } from "react";

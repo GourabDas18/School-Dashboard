@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Menu from '../components/Menu';
 import data from "../database/data.json";
 import { attendance_percentage } from './Attendance';

@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Menu from '../components/Menu';
-import { AreaChart } from '../components/Aeachart';
 import data from "../database/data.json";
-import { ScriptableContext } from 'chart.js/auto';
 import { BarChart } from '../components/Barchart';
 
 export type attendance_percentage = {
@@ -27,7 +25,7 @@ const Attendance = () => {
   const [studentList,setStudentList] = useState<eachStudent[]|null>(null)
 
   const avarageCount : (no:attendance_percentage) => number = (no:attendance_percentage)=>{
-    let total = Object.entries(no).map(([k,v])=> v).reduce((x:number,y:number)=>x+y);
+    let total = Object.values(no).reduce((x:number,y:number)=>x+y);
     let avg = total/Object.values(no).length;
     return avg;
   }

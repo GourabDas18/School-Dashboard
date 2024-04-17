@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import teacher from "../img/teacher.png";
 import dashboard from "../img/dashboard.png";
 import attendance from "../img/attendance.png";

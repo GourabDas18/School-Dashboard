@@ -1,4 +1,4 @@
-import { Context, createContext, useContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 import { ReactNode } from "react";
 
 interface child {
