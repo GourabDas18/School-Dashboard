@@ -12,7 +12,7 @@ import StudentId from './pages/StudentId';
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <StoreWrap>
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
     <Routes>
       <Route path='/' element={ <Home />} />   
       <Route path='/attendance' element={ <Attendance />} />   
