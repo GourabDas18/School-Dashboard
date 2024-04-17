@@ -1,0 +1,57 @@
+[
+    {
+      "name": "Mathematics",
+      "assignments": 5,
+      "duration_minutes": 60,
+      "lesson": 12,
+      "subject_code": "MATH101",
+      "image": "https://previews.123rf.com/images/captainvector/captainvector1703/captainvector170312762/74784748-mathematic-subject-icon.jpg",
+      "complete": 60
+    },
+    {
+      "name": "Science",
+      "assignments": 4,
+      "duration_minutes": 45,
+      "lesson": 14,
+      "subject_code": "SCI101",
+      "image": "https://cdn-icons-png.flaticon.com/512/5205/5205074.png",
+      "complete": 70
+    },
+    {
+      "name": "English",
+      "assignments": 3,
+      "duration_minutes": 50,
+      "lesson": 12,
+      "subject_code": "ENG101",
+      "image": "https://static.vecteezy.com/system/resources/previews/008/359/437/non_2x/collection-colored-thin-icon-of-english-language-learning-subject-book-graduated-hat-learning-and-education-concept-illustration-vector.jpg" ,
+      "complete": 82
+    },
+    {
+      "name": "History",
+      "assignments": 2,
+      "duration_minutes": 40,
+      "lesson": 8,
+      "subject_code": "HIS101",
+      "image": "https://cdn-icons-png.flaticon.com/512/5776/5776984.png",
+      "complete": 54
+    },
+    {
+      "name": "Computer Science",
+      "assignments": 6,
+      "duration_minutes": 55,
+      "lesson": 10,
+      "subject_code": "COMP101",
+      "image": "https://cdn-icons-png.flaticon.com/512/5766/5766472.png",
+      "complete": 87
+    },
+    {
+      "name": "Geography",
+      "assignments": 3,
+      "duration_minutes": 45,
+      "lesson": 12,
+      "subject_code": "GEOG101",
+      "image": "https://cdn-icons-png.flaticon.com/512/2234/2234697.png",
+      "complete": 68
+    }
+  ]
+  
