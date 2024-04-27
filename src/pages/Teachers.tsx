@@ -2,7 +2,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import Menu from '../components/Menu';
 import data from "../database/data.json";
-import { Link } from 'react-router-dom';
 
 export type eachTeacherAlldata  = {
       id: number;
@@ -94,7 +93,7 @@ const Teachers = () => {
               <th className=' sticky top-0 text-sm p-2 w-6 text-left'>ID</th>
               <th className=' sticky top-0 text-sm text-left p-2 sm:w-24'>Name</th>
               <th className=' sticky top-0 text-sm text-center  p-2'>Gender</th>
-              <th className=' sticky top-0 text-sm p-2 '><span className='flex flex-row items-center'> 
+              <th className=' sticky top-0 text-sm p-2'><span className='flex flex-row items-center justify-center'> 
                 Age
               <i className="fi fi-rr-sort-alt ml-1" onClick={sortAge}></i>
                 </span></th>
