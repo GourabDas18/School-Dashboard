@@ -9,6 +9,7 @@ import data from "../database/data.json";
 import { AreaChart } from "../components/Aeachart";
 import {ScriptableContext} from "chart.js";
 import lessonPlan from "../database/subjects.json";
+import { Link } from "react-router-dom";
 
 type studentInfo = { name: string; number: number; image: string; attendance : attendanceType ;  address: string};
 interface attendanceType {
@@ -121,6 +122,7 @@ const Home = () => {
                                     <BarChart data={{ labels: dataLabelName, datasets: [{ label: "Top Performer of December", data: dataLabelNumber, backgroundColor: "rgb(101 90 254 / 50%)", borderRadius: 15, borderColor: "rgb(101, 90, 254)", borderWidth: 2 }] }} max={100} min={50}/>
                                 </div>
                                 <div className="flex flex-row md:flex-wrap md:gap-10 md:justify-around md:my-8 items-center justify-evenly p-5 w-full">
+                                    <Link to={"/teachers"}>
                                     <div className="flex flex-col bg-fuchsia-200 p-3 rounded-xl shadow-sm cursor-pointer hover:scale-105 w-44">
                                         <div className="bg-fuchsia-50 w-8 h-8 flex justify-center items-center rounded-2xl mb-3 mt-1">
                                             <i className="fi fi-sr-chalkboard-user text-fuchsia-800"></i>
@@ -129,7 +131,9 @@ const Home = () => {
                                         <p className="text-[0.65rem] text-fuchsia-700">Assign a teacher. <br></br> Check their classes.</p>
                                         <i className="fi fi-sr-share-square absolute right-2 top-2 text-violet-800"></i>
                                     </div>
+                                    </Link>
 
+                                    <Link to={"/students"}>
                                     <div className="flex flex-col bg-fuchsia-200 p-3 rounded-xl shadow-sm cursor-pointer hover:scale-105 w-44">
                                         <div className="bg-fuchsia-50 w-8 h-8 flex justify-center items-center rounded-2xl mb-3 mt-1">
                                             <i className="fi fi-sr-user-graduate text-fuchsia-800"></i>
@@ -138,6 +142,7 @@ const Home = () => {
                                         <p className="text-[0.65rem] text-fuchsia-700">Check student's details. <br></br> Check their classes.</p>
                                         <i className="fi fi-sr-share-square absolute right-2 top-2 text-violet-800"></i>
                                     </div>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

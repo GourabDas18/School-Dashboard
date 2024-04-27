@@ -61,8 +61,8 @@ const Students = () => {
         <label htmlFor="searchbox"><i className="fi fi-bs-search text-gray-400 text-sm mr-6"></i></label>
         <input type="text" id='searchbox' className='px-2 py-2 bg-gray-100 text-gray-500 w-[42rem] md:w-[15rem] text-sm focus:outline-none active:outline-none' placeholder='Search name' onChange={(e)=>{setSearched(e.target.value)}}/>
     </div>
-    <div className='flex flex-1 xs:w-fit m-2 overflow-x-hidden md:mb-20'>
-        <table className='w-full h-max table-fixed '>
+    <div className='flex flex-1 w-full m-2 overflow-x-hidden md:mb-20 sm:overflow-x-auto'>
+        <table className='w-full h-max table-fixed sm:w-max'>
           <thead className='text-sm bg-cyan-200 sticky top-0 z-10'>
             <tr className='border-collapse border-spacing-1 border-b-2'>
               <th className=' sticky top-0 text-sm p-2 w-16'>Profile</th>
@@ -70,7 +70,7 @@ const Students = () => {
               <th className=' sticky top-0 text-sm text-center  p-2'>Student ID</th>
               <th className=' sticky top-0 text-sm p-2 '>Age</th>
               <th className=' sticky top-0 text-sm p-2 ' >Blood Group</th>
-              <th className=' sticky top-0 text-sm p-2 '>Address</th>
+              <th className=' sticky top-0 text-sm p-2 sm:w-36'>Address</th>
             </tr>
           </thead>
           <tbody className='n'>
@@ -83,7 +83,7 @@ const Students = () => {
               <td className=' text-sm text-center p-2'><Link to={"/students/"+ each.student_id.toString()} >{each.student_id}</Link></td>
               <td className=' text-sm text-center p-2'>{each.age}</td>
               <td className=' text-sm text-center p-2'>{each.blood_group}</td>
-              <td className=' text-sm text-center p-2 [overflow-wrap:anywhere]'>{each.address}</td>
+              <td className=' text-sm text-center p-2 sm:w-40'>{each.address}</td>
                 </tr>
               
               )

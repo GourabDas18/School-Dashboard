@@ -51,7 +51,7 @@ const Menu = ({ active }: menu) => {
                     </li>
                 </Link>
 
-                <Link to={"/students"} className="flex">
+                <Link to={"/teachers"} className="flex">
                 <li className="flex flex-row w-full md:flex-col h-10 rounded-r-lg justify-start md:justify-center items-center px-8 md:px-0 cursor-pointer hover:scale-110 hover:shadow-xl hover:bg-violet-900 md:hover:bg-inherit md:hover-shadow-none">
                     <img src={teachers} alt="dashboard" className={`w-4 h-4 md:w-3.5 md:h-3.5 ${active == "teachers" ? " invert-[1] md:invert-[0.2] md:scale-125  " : "invert-[0.7] md:invert-[0.4]"} mb-1 md:mb-0`} />
                     <h2 className={`${active == "teachers" ? " text-sm text-gray-100 md:text-blue-600 md:font-semibold md:text-[0.7rem] " : "text-xs text-gray-300 md:text-gray-500 "} ml-4 font-semibold md:ml-0 md:text-[0.6rem] ${menuOpen ? "" : "hidden"}`}>Teachers</h2>

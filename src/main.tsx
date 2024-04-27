@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Students from './pages/Students'
 import { StoreWrap } from './database/store'
 import StudentId from './pages/StudentId';
+import Teachers from './pages/Teachers'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Route path='/attendance' element={ <Attendance />} />   
       <Route path='/students' element={ <Students />} />   
       <Route path='/students/:id' element={ <StudentId />} />   
+      <Route path='/teachers' element={ <Teachers />} />   
     </Routes>
     </BrowserRouter>
     </StoreWrap>
